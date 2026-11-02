@@ -2,13 +2,25 @@
 
 Practical file and revision guide for **Advanced Software Development and DevOps (ASDD)**.
 
+## Repository layout
+
+```
+asdd/
+├── lab-file/              Full lab file (DOCX + PDF)
+├── revision-guide/        Revision guide with viva Q&A (DOCX + PDF)
+└── screenshots/
+    ├── exp8/              AWS Lambda screenshots (6)
+    └── lab-manual/        Handwritten lab-manual pages (2)
+```
+
 ## Contents
 
-| File | What it is |
-|---|---|
-| `ASDD_Experiments_1_to_8.docx` / `.pdf` | Full lab file: Experiment 1–8 with aims, procedure, commands and output |
-| `ASDD_Practical_Revision_Guide.docx` / `.pdf` | Revision guide: what to do, what to verify, viva Q&A, commands, 90-minute plan |
-| `pics/` | Experiment 8 screenshots (6), plus the two handwritten lab-manual pages |
+| Folder | File | What it is |
+|---|---|---|
+| `lab-file/` | `ASDD_Experiments_1_to_8.docx` / `.pdf` | Experiment 1–8 with aims, procedure, commands and output |
+| `revision-guide/` | `ASDD_Practical_Revision_Guide.docx` / `.pdf` | What to do, what to verify, viva Q&A, commands, 90-minute plan |
+| `screenshots/exp8/` | `01`–`06` | Lambda home, getting started, EventBridge trigger, monitor metrics, function overview, code source |
+| `screenshots/lab-manual/` | `page-1`, `page-2` | Handwritten lab-manual pages |
 
 ## Experiments
 
