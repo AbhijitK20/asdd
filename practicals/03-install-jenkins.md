@@ -19,6 +19,15 @@ javac -version
 
 Works on Linux, macOS and Windows with Docker Desktop.
 
+Using the repository's compose file (recommended):
+
+```bash
+cd docker
+docker compose up -d jenkins
+```
+
+Or run the container directly:
+
 ```bash
 docker pull jenkins/jenkins:lts-jdk21
 docker run -d --name jenkins --restart unless-stopped \

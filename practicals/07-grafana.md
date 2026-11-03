@@ -14,6 +14,13 @@ Choose one:
 **Docker (fastest):**
 
 ```bash
+cd docker
+docker compose up -d grafana
+```
+
+Or directly:
+
+```bash
 docker run -d --name=grafana -p 3000:3000 grafana/grafana
 ```
 
